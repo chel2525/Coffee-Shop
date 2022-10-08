@@ -1,0 +1,146 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #ccc;
+    font-family: sans-serif;
+}
+
+.hero-section{
+    width: 100%;
+    margin-top: 50px;
+}
+h1{
+    text-align: center;
+    text-decoration: dotted;
+    font-size: 65px;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+
+
+img{
+    display: flex;
+    margin: 0px auto;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: aqua;
+    
+}
+
+
+li {
+    float: left;
+ }
+
+ li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+ }
+
+ li a:hover {
+    background-color: white;
+ }
+
+
+.static { 
+    text-align: center;
+    position: static;
+    font-family: sans-serif;
+    text-decoration: dotted;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    border: dotted;
+    color: yellow;
+    font-size: 25px;
+}
+
+.relative {
+  position: relative;
+  left: 200px;
+  top: 30px;
+  }
+
+.p {
+    text-align: center;
+    position: static;
+    font-family: sans-serif;
+    text-decoration: dotted;
+    text-indent: 50px;
+    letter-spacing: 5px;
+    border: dotted;
+    color: yellow;
+    font-size: 25px;
+}
+
+.seven {
+    
+    border: 10px solid black;
+    }
+
+.seven > div {
+    background-color: aqua;
+    margin: 10px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+iframe {
+    width: 1000px;
+    height: 500px;
+}
+
+table {
+    width: 400px;
+    
+}
+
+th {
+    text-align: left;
+    width: 1000px;
+    height: 300px;
+
+}
+
+
+
+
+
+
+
+
+
+.img-eye {
+   width: 800px;
+   
+}
+
+.img-eye2 {
+    width: 300px;
+    
+}
+
+.img-eye3 {
+    width: 400px;
+
+}
+
+.img-eye4 {
+    width: 300px;
+    position: relative;
+    
+}
+
+.img-eye5 {
+    width: 500px;
+}
+
+
